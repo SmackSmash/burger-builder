@@ -1,0 +1,23 @@
+.Input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.Label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+.Text {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px auto;
+  border: solid 1px #ccc;
+  border-left: solid 4px #ccc;
+  outline: none;
+  font: inherit;
+}
+.Text:focus {
+  border-color: #5c9210;
+}
